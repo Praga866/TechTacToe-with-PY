@@ -30,7 +30,7 @@ while(result[1]):
     winner.print_Board(current_State)
     if(result[1] == False):
         Win = player_1 if result[0] == "X" else player_2
-        print("{} Wins the Match and holds the Cup....\nThe Other got face Planted 🤣😂\n\n".format(Win))
+        print("{} Wins the Match and holds the Cup....\nThe Other got face Planted 🤣😂\n\n".format(player_1))
         break
 
 
@@ -43,7 +43,7 @@ while(result[1]):
     winner.print_Board(current_State)
     if(result[1] == False):
         Win = player_1 if result[0] == "X" else player_2
-        print("{} Wins the Match and holds the Cup....\nThe Other got face Planted 🤣😂\n\n".format(Win))
+        print("{} Wins the Match and holds the Cup....\nThe Other got face Planted 🤣😂\n\n".format(player_2))
         break
 
 winner.print_Credits()
